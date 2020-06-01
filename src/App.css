@@ -16,8 +16,6 @@
 }
 
 .forecastGrid {
-    display: grid;
-    grid-gap: .6rem;
-    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
-
+    display: flex;
+    flex-direction: column;
 }
